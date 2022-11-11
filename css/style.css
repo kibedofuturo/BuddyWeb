@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
 
 header {
-  background-color: #FFCB00;
-  color: #FFF;
+  background-color: #ffcb00;
+  color: #fff;
   display: flex;
   width: 100%;
   height: 60px;
@@ -13,7 +15,7 @@ header {
 }
 
 a {
-  color: #FFF;
+  color: #fff;
 }
 
 .home {
@@ -45,28 +47,28 @@ a {
 }
 
 .pin {
-  width: 10px ;
-  height: 10px ;
-  background-color: #FFF ;
-  border-radius: 60px 60px 0px 60px ;
-  position:relative ;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 60px 60px 0px 60px;
+  position: relative;
   transform: rotate(45deg);
   margin: 9px;
 }
 
 .pin::after {
-  content: "" ;
-  width: 5px ;
-  height: 5px ;
-  background: #FFCB00 ;
-  position: absolute ;
-  left: 26% ;
-  top: 26% ;
-  border-radius: 60px ;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #ffcb00;
+  position: absolute;
+  left: 26%;
+  top: 26%;
+  border-radius: 60px;
 }
 
 .arrow {
-  border: solid #FFF;
+  border: solid #fff;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -84,4 +86,68 @@ a {
   height: 35px;
   left: 1146px;
   top: 13px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 13.5rem;
+  background: #b88f00;
+  border: 1px solid #000000;
+
+  font-weight: 600;
+  font-size: 50.4007px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 3rem 5rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.6391px;
+  line-height: 140%;
+  letter-spacing: 0.195489px;
+}
+
+.searchTerm {
+  width: 100%;
+  height: 39px;
+  background: #ffffff;
+  border: 1px solid #f4f4f4;
+  border-radius: 14px;
+  padding-left: 2rem;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.search-input > img {
+  position: absolute;
+  width: 17px;
+  padding: 0.75rem 0.5rem;
+}
+
+.filter-button {
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 41px;
+  height: 39px;
+
+  background: #ffcb00;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
