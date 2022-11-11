@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #FFCB00;
+  color: #FFF;
+  display: flex;
+  width: 1280px;
+  height: 60px;
+  align-items: center;
+}
+
+a {
+  color: #FFF;
+}
+
+.home {
+  flex: 1;
+}
+
+.logo {
+  flex: 2;
+  margin: 81px;
+}
+.logo1 {
+  width: 47.83px;
+  height: 40px;
+  left: 0;
+}
+
+.logo2 {
+  width: 105.22px;
+  height: 33.04px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex: 8;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 32.5px;
+}
+
+.pin {
+  width: 10px ;
+  height: 10px ;
+  background-color: #FFF ;
+  border-radius: 60px 60px 0px 60px ;
+  position:relative ;
+  transform: rotate(45deg);
+  margin: 9px;
+}
+
+.pin::after {
+  content: "" ;
+  width: 5px ;
+  height: 5px ;
+  background: #FFCB00 ;
+  position: absolute ;
+  left: 26% ;
+  top: 26% ;
+  border-radius: 60px ;
+}
+
+.arrow {
+  border: solid #FFF;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 7.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.img-icon {
+  width: 35px;
+  height: 35px;
+  left: 1146px;
+  top: 13px;
+}
