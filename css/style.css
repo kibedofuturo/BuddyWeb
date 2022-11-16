@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Urbanist:wght@500&display=swap");
 
 * {
   padding: 0;
@@ -189,4 +189,75 @@ button {
 
 .btn-img {
   padding-right: 0.5rem;
+}
+
+.pets-cards {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  width: 316px;
+  height: 146px;
+  background: #ffffff;
+  border: 0.8px solid #f7f7f7;
+  border-radius: 10px;
+  margin-right: 4.5rem;
+}
+
+.card-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-description {
+  padding-left: 0.5rem;
+}
+
+.card-description h4 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24.3756px;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+.card-description p {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #e1e1e1;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  padding-right: 0.25rem;
+}
+
+.card-footer img {
+  padding-right: 0.5rem;
+  width: 10px;
+}
+
+.card-footer h4 {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+  padding: 0;
+  margin: 0;
+
+  color: #ffcb00;
 }
