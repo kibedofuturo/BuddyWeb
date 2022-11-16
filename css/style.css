@@ -199,7 +199,6 @@ button {
 }
 
 .card {
-  width: 316px;
   height: 146px;
   background: #ffffff;
   border: 0.8px solid #f7f7f7;
@@ -210,6 +209,7 @@ button {
 .card-img {
   display: flex;
   flex-direction: row;
+  width: 315px;
 }
 
 .card-description {
