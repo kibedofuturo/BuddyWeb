@@ -2,4 +2,3 @@
   Versão Web do projeto Buddy para a disciplina de Introdução a Programação Web
   
 Sidney Lindo
-Thiego é mais
