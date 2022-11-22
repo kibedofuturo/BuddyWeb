@@ -3,5 +3,77 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: pink;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+header {
+  background-color: #ffcb00 !important;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+}
+
+.logo {
+  flex: 2;
+  margin: 81px;
+}
+.logo1 {
+  width: 47.83px;
+  height: 40px;
+  left: 0;
+}
+
+.logo2 {
+  width: 105.22px;
+  height: 33.04px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex: 8;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 32.5px;
+}
+
+.pin {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 60px 60px 0px 60px;
+  position: relative;
+  transform: rotate(45deg);
+  margin: 9px;
+}
+
+.pin::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #ffcb00;
+  position: absolute;
+  left: 26%;
+  top: 26%;
+  border-radius: 60px;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 7.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.icon {
+  flex: 1;
 }
