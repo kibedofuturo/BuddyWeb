@@ -98,21 +98,6 @@ a {
   top: 13px;
 }
 
-.banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 13.5rem;
-  background: #b88f00;
-  border: 1px solid #000000;
-
-  font-weight: 600;
-  font-size: 50.4007px;
-  line-height: 140%;
-  color: #ffffff;
-}
-
 .search {
   display: flex;
   flex-direction: column;
