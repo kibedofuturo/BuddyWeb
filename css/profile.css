@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Urbanist:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Urbanist:wght@500&display=swap");
 
 * {
   padding: 0;
@@ -98,7 +98,7 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   width: 440px;
   height: 745px;
   margin-left: 21px;
@@ -147,12 +147,12 @@ a {
 
 button {
   display: flex;
-  background-color: #FFFEF9;
+  background-color: #fffef9;
   border-radius: 91px;
   margin-top: 11px;
   font-weight: 800;
-  font-family: 'Urbanist', sans-serif;
-  color:#262626;
+  font-family: "Urbanist", sans-serif;
+  color: #262626;
   font-size: 19.78px;
   border: none;
   cursor: pointer;
@@ -165,7 +165,6 @@ button {
 .profile-edit-button ul li {
   list-style: none;
   margin-top: 34px;
-
 }
 
 #lapis-icon {
@@ -189,7 +188,7 @@ button {
 }
 
 .categories {
-  display:flex;
+  display: flex;
   margin-top: 258px;
   margin-left: 53px;
 }

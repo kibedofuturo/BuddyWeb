@@ -1,29 +1,61 @@
-body{
-    background-color: #ffcb00;
-    
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Urbanist:wght@500&display=swap");
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
-.ladoEsquerdo{
-    display: flex;
-    border: 2px solid black;
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140%;
+  padding: 0 2rem;
 }
-.ladoEsquerdo img{
-    width: 322px;
-    height: 287px;
-    border-radius: 10px;
-    border: 5px solid red;
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  padding: 0 5rem 2rem;
 }
-#logo1{
-    width: 200px;
-    height: 146px;
-    border: 2px solid green;
-    margin-top: 0;
+
+main {
+  display: flex;
+  flex-direction: row;
 }
-.bot1,.bot2{
-    border: 2px solid green;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    border-radius: 25px;
-    margin: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+.ladoEsquerdo {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 100vh;
+  background-color: #ffcb00;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+.ladoEsquerdo img {
+  width: 250px;
+  height: auto;
+}
+#logo1 {
+  width: 200px;
+  height: 146px;
+  margin-top: 0;
+}
+.bot1,
+.bot2 {
+  border: 2px solid green;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
