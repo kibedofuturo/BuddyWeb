@@ -97,6 +97,7 @@ a {
   width: 360px;
   height: 780px;
   margin: 2rem;
+  align-items: center;
 
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
