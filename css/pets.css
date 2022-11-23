@@ -14,7 +14,7 @@ header {
   align-items: center;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
 }
@@ -111,12 +111,12 @@ a {
 .butaoVac {
   width: 290px;
   height: 59px;
-  color: #FFFFFF;;
+  color: #ffffff;
   background: #a48200;
   border-radius: 91px;
   display: flex;
   text-decoration: none;
-  font-family: 'Urbanist';
+  font-family: "Urbanist";
   font-style: normal;
   font-weight: 400;
   font-size: 19.7814px;
@@ -124,13 +124,18 @@ a {
   align-items: center;
   justify-content: flex-start;
   padding-left: 2rem;
+  margin-top: 1rem;
 }
 
-#vacina-icon{
+#vacina-icon {
   padding-right: 4rem;
 }
 
-.pet-name{
+.pet-name {
   display: flex;
   align-items: baseline;
+}
+
+#about-pet {
+  padding: 0.5rem 2rem;
 }
