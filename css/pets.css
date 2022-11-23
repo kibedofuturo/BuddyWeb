@@ -129,3 +129,8 @@ a {
 #vacina-icon{
   padding-right: 4rem;
 }
+
+.pet-name{
+  display: flex;
+  align-items: baseline;
+}
