@@ -49,7 +49,7 @@ main {
   height: 146px;
   margin-top: 0;
 }
-.ladoDireito{
+.ladoDireito {
   display: flex;
   flex-direction: column;
   width: 45%;
@@ -58,35 +58,39 @@ main {
   justify-content: center;
   text-align: center;
 }
-.caixaBotao{
-  margin-top: 410px;
-  padding: 30px;
+.caixaBotao {
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
 }
-.bot1{
+.bot1 {
   background-color: #ffcb00;
   border-color: #ffcb00;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
-.bot1:hover{
+.bot1:hover {
   transition: linear;
   transform: scale(1.1);
   background-color: #ffcb00;
 }
-.bot2{
-  background-color: #FFFFFF;
-  border-color: #9D9D9D;
+.bot2 {
+  background-color: #ffffff;
+  border-color: #9d9d9d;
   font-size: 15px;
   text-decoration: none;
 }
-.bot2 img{
+.bot2 img {
   width: 10%;
   vertical-align: middle;
   margin-inline: 2%;
 }
-.bot2:hover{
+.bot2:hover {
   transition: linear;
   transform: scale(1.1);
   background-color: transparent;
@@ -96,11 +100,10 @@ main {
   width: 333px;
   height: 61px;
   border-radius: 15px;
-  margin-left: -24%;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 2%;
+  padding: 0 !important;
 }
-a{
+a {
   color: #ffcb00;
   margin-left: 50%;
   font-family: Arial, Helvetica, sans-serif;
@@ -108,6 +111,22 @@ a{
   font-weight: bold;
   text-decoration: none;
 }
-#registro{
-  margin-left: 27%;
+
+.input-form {
+  border-radius: 5px;
+  padding: 20px;
+  color: #ffcb00;
+  text-align: start;
+  margin-left: 2rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }

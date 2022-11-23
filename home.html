@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Buddy</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="home.html">
+          <img class="logo1" src="images/logo.png" alt="" />
+          <img class="logo2" src="images/logo2.png" alt="" />
+        </a>
+      </div>
+      <div class="info">
+        <div>
+          <div class="pin"></div>
+        </div>
+        <div class="Location">
+          <p>Recife,PE</p>
+        </div>
+        <div>
+          <div class="arrow"></div>
+        </div>
+      </div>
+      <div class="icon">
+        <a href="profile.html" class="button">
+          <img class="img-icon" src="images/icon.png" alt="" />
+        </a>
+        <button onclick="myFunction()">dark</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="search">
+        Encontre um pet pata para você
+
+        <div class="search-input">
+          <img src="images/search-icon.svg" alt="filter" />
+          <input type="text" class="searchTerm" placeholder="Pesquise aqui" />
+
+          <div class="filter-button">
+            <img src="images/filter.svg" alt="filter" />
+          </div>
+        </div>
+      </section>
+
+      <section class="categories">
+        Categorias
+
+        <div class="categories-button">
+          <button class="button-all">Todos</button>
+
+          <button class="button-icon">
+            <img
+              class="btn-img"
+              src="images/dog-icon.svg"
+              alt="Ícone de Cachorro"
+            />
+            Cachorro
+          </button>
+
+          <button class="button-icon">
+            <img
+              class="btn-img"
+              src="images/cat-icon.svg"
+              alt="Ícone de Gato"
+            />
+            Gato
+          </button>
+        </div>
+      </section>
+
+      <section class="pets-cards">
+        <div class="card">
+          <a href="picole.html">
+            <div class="card-img">
+              <img src="images/picole.png" alt="Picolé" />
+              <div class="card-description">
+                <h4>Picolé</h4>
+                <p>Sem raça definida</p>
+              </div>
+              <div class="card-footer">
+                <img src="images/location-icon.svg" alt="Location" />
+                <h4>40km</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="mike.html">
+            <div class="card-img">
+              <img src="images/mike.png" alt="Mike" />
+              <div class="card-description">
+                <h4>Mike</h4>
+                <p>Sem raça definida</p>
+              </div>
+              <div class="card-footer">
+                <img src="images/location-icon.svg" alt="Location" />
+                <h4>15km</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="mel.html">
+            <div class="card-img">
+              <img src="images/mel.png" alt="Mel" />
+              <div class="card-description">
+                <h4>Mel</h4>
+                <p>Sem raça definida</p>
+              </div>
+              <div class="card-footer">
+                <img src="images/location-icon.svg" alt="Location" />
+                <h4>2km</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
