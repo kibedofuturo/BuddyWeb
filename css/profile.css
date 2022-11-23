@@ -94,8 +94,8 @@ a {
   flex-direction: column;
   text-align: center;
   font-family: 'Urbanist', sans-serif;
-  width: 360px;
-  height: 780px;
+  width: 440px;
+  height: 745px;
   margin: 2rem;
 
   background: #ffda4b;
@@ -103,14 +103,34 @@ a {
   border-radius: 20px;
 }
 
+.profile-infos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#local-icon {
+  margin-right: 11px;
+}
+
+#localizacao {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
 #profile-name {
   font-size: 38.8px;
   font-weight: 800;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 #profile-function {
   font-size: 20.15px;
   font-weight: 500;
+  margin-bottom: 24px;
   color: #555554;
 }
 
