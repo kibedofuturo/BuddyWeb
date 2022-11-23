@@ -94,28 +94,68 @@ a {
   flex-direction: column;
   text-align: center;
   font-family: 'Urbanist', sans-serif;
-  width: 360px;
-  height: 780px;
-  margin: 2rem;
-  align-items: center;
+  width: 440px;
+  height: 745px;
+  margin-left: 21px;
+  margin-top: 37px;
 
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
 
+.profile-infos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#local-icon {
+  margin-right: 11px;
+}
+
+#localizacao {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
 #profile-name {
   font-size: 38.8px;
   font-weight: 800;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 #profile-function {
   font-size: 20.15px;
   font-weight: 500;
+  margin-bottom: 24px;
   color: #555554;
 }
 
 #profile-local {
   font-size: 19.78px;
   font-weight: 500;
+}
+
+button {
+  background-color: #FFFEF9;
+  border-radius: 91px;
+  margin-top: 11px;
+  font-weight: 800;
+  font-family: 'Urbanist', sans-serif;
+  color:#262626;
+  font-size: 19.78px;
+  border: none;
+  cursor: pointer;
+  width: 389px;
+  height: 59px;
+}
+
+.profile-edit-button ul li {
+  list-style: none;
+  margin-top: 34px;
+
 }
