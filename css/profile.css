@@ -198,7 +198,7 @@ button {
 
 .categories {
   display: flex;
-  margin-top: 258px;
+  margin-top: 50px;
   margin-left: 53px;
 }
 
@@ -210,7 +210,7 @@ button {
 
 .button-all {
   width: fit-content;
-  padding: 0 3rem;
+  padding: 1.5rem 3rem;
   height: 43.4px;
   background: #ffcb00;
   border-radius: 21.7px;
