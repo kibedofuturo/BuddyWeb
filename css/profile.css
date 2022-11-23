@@ -97,13 +97,12 @@ a {
 .profile-section {
   display: flex;
   flex-direction: column;
-  text-align: center;
   font-family: 'Urbanist', sans-serif;
   width: 440px;
   height: 745px;
+  padding-top: 56px;
   margin-left: 21px;
   margin-top: 37px;
-  align-items: center;
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
@@ -173,9 +172,9 @@ button {
 }
 
 .sobre-mim {
+  text-align: left;
   color: #555554;
   font-size: 18.19px;
-  text-align: left;
   margin-top: 55px;
   margin-left: 27px;
 }
@@ -217,3 +216,6 @@ button {
 .btn-img {
   padding-right: 0.5rem;
 }
+
+
+
