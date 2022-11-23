@@ -100,13 +100,14 @@ a {
   text-align: center;
   font-family: "Urbanist", sans-serif;
   width: 440px;
-  height: 745px;
+  height: 650px;
   margin-left: 21px;
   margin-top: 37px;
   align-items: center;
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+  margin-bottom: 2rem;
 }
 
 .profile-infos {
@@ -198,7 +199,7 @@ button {
 
 .categories {
   display: flex;
-  margin-top: 258px;
+  margin-top: 50px;
   margin-left: 53px;
 }
 
@@ -210,7 +211,7 @@ button {
 
 .button-all {
   width: fit-content;
-  padding: 0 3rem;
+  padding: 1.5rem 3rem;
   height: 43.4px;
   background: #ffcb00;
   border-radius: 21.7px;
