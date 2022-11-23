@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    color: white;
+}
+.ladoEsquerdo{
+    width: 50%;
+  background-color: #ffcb00;
+  padding: 0;
+  margin: 0;
+}
+.ladoEsquerdo img{
+    width: 60px;
+    height: 45px;
+    border-radius: 10px;
+    border: 5px solid red;
+}
+.bot1,.bot2{
+    border: 2px solid green;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
