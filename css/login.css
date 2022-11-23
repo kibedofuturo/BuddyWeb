@@ -1,22 +1,22 @@
 body{
-    background-color: white;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    margin: 5vw;
-    color: white;
+    background-color: #ffcb00;
+    
 }
 .ladoEsquerdo{
-    width: 50%;
-  background-color: #ffcb00;
-  padding: 0;
-  margin: 0;
+    display: flex;
+    border: 2px solid black;
 }
 .ladoEsquerdo img{
-    width: 60px;
-    height: 45px;
+    width: 322px;
+    height: 287px;
     border-radius: 10px;
     border: 5px solid red;
+}
+#logo1{
+    width: 200px;
+    height: 146px;
+    border: 2px solid green;
+    margin-top: 0;
 }
 .bot1,.bot2{
     border: 2px solid green;
