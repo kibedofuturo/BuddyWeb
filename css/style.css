@@ -10,6 +10,12 @@
   letter-spacing: 0.2px;
 }
 
+corpo {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
 main {
   background-image: url("../images/background.svg");
   background-repeat: no-repeat;
