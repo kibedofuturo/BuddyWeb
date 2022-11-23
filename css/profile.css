@@ -100,13 +100,14 @@ a {
   text-align: center;
   font-family: "Urbanist", sans-serif;
   width: 440px;
-  height: 745px;
+  height: 650px;
   margin-left: 21px;
   margin-top: 37px;
   align-items: center;
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+  margin-bottom: 2rem;
 }
 
 .profile-infos {
