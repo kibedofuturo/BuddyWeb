@@ -111,11 +111,21 @@ a {
 .butaoVac {
   width: 290px;
   height: 59px;
-  color: black;
+  color: #FFFFFF;;
   background: #a48200;
   border-radius: 91px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-decoration: none;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.7814px;
+  line-height: 140%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2rem;
+}
+
+#vacina-icon{
+  padding-right: 4rem;
 }
