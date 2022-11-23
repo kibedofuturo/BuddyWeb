@@ -103,8 +103,7 @@ a {
   height: 745px;
   margin-left: 21px;
   margin-top: 37px;
-  padding-top: 56px;
-
+  align-items: center;
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
