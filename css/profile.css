@@ -88,9 +88,14 @@ a {
   top: 13px;
 }
 
+.pagina-inteira {
+  display: flex;
+  direction: row;
+  align-items: flex-start;
+}
+
 .profile-section {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   text-align: center;
   font-family: 'Urbanist', sans-serif;
@@ -98,6 +103,7 @@ a {
   height: 745px;
   margin-left: 21px;
   margin-top: 37px;
+  padding-top: 56px;
 
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
@@ -141,6 +147,7 @@ a {
 }
 
 button {
+  display: flex;
   background-color: #FFFEF9;
   border-radius: 91px;
   margin-top: 11px;
@@ -152,10 +159,62 @@ button {
   cursor: pointer;
   width: 389px;
   height: 59px;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-edit-button ul li {
   list-style: none;
   margin-top: 34px;
 
+}
+
+#lapis-icon {
+  padding-right: 14px;
+}
+
+.sobre-mim {
+  color: #555554;
+  font-size: 18.19px;
+  text-align: left;
+  margin-top: 55px;
+  margin-left: 27px;
+}
+
+.lorem-ipsum {
+  text-align: justify;
+  font-weight: 400;
+  margin-top: 22px;
+  margin-left: 27px;
+  margin-right: 67px;
+}
+
+.categories {
+  display:flex;
+  margin-top: 258px;
+  margin-left: 53px;
+}
+
+.categories-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-all {
+  width: fit-content;
+  padding: 0 3rem;
+  height: 43.4px;
+  background: #ffcb00;
+  border-radius: 21.7px;
+  margin-right: 4.5rem;
+}
+
+.button-icon {
+  display: flex;
+  align-items: center;
+}
+
+.btn-img {
+  padding-right: 0.5rem;
 }
