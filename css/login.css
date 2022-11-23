@@ -83,7 +83,8 @@ main {
 }
 .bot2 img{
   width: 10%;
-  float: inline-start;
+  vertical-align: middle;
+  margin-inline: 2%;
 }
 .bot2:hover{
   transition: linear;
