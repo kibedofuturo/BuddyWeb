@@ -93,6 +93,7 @@ a {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  font-family: 'Urbanist', sans-serif;
   width: 360px;
   height: 780px;
   margin: 2rem;
@@ -100,4 +101,20 @@ a {
   background: #ffda4b;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
+}
+
+#profile-name {
+  font-size: 38.8px;
+  font-weight: 800;
+}
+
+#profile-function {
+  font-size: 20.15px;
+  font-weight: 500;
+  color: #555554;
+}
+
+#profile-local {
+  font-size: 19.78px;
+  font-weight: 500;
 }
