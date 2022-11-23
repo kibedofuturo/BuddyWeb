@@ -3,7 +3,100 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: rgb(247, 247, 247);
 }
 
+header {
+  background-color: #ffcb00 !important;
+  color: #fff;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+}
 
+a {
+  color: #fff;
+}
+
+.home {
+  flex: 1;
+}
+
+.logo {
+  flex: 2;
+  margin: 81px;
+}
+.logo1 {
+  width: 47.83px;
+  height: 40px;
+  left: 0;
+}
+
+.logo2 {
+  width: 105.22px;
+  height: 33.04px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex: 8;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 32.5px;
+}
+
+.pin {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 60px 60px 0px 60px;
+  position: relative;
+  transform: rotate(45deg);
+  margin: 9px;
+}
+
+.pin::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #ffcb00;
+  position: absolute;
+  left: 26%;
+  top: 26%;
+  border-radius: 60px;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 7.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.icon {
+  flex: 1;
+}
+
+.img-icon {
+  width: 35px;
+  height: 35px;
+  left: 1146px;
+  top: 13px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 360px;
+  height: 550px;
+  margin: 2rem;
+
+  background: #ffda4b;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
